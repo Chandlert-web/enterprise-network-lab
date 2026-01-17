@@ -21,10 +21,14 @@ Routing is used to enable controlled communication between segments while mainta
 
 ### Enterprise Network Topology
 
-![Enterprise Network Topology](diagrams/enterprise-network-topology.png)
+This project implements a segmented enterprise network design using VLANs and router-on-a-stick inter-VLAN routing.
 
-This topology illustrates a segmented enterprise network using VLANs and router-on-a-stick inter-VLAN routing. 
-An 802.1Q trunk connects the router and access switch, enabling controlled communication between VLANs.
+The topology includes:
+- A router performing inter-VLAN routing
+- An 802.1Q trunk between the router and access switch
+- Segmented VLANs for Users, Servers, and Management networks
+
+The network topology diagram is available in the `diagrams/` directory of this repository.
 
 Planned components include:
 - Access and distribution switching
