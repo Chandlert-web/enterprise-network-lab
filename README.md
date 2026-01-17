@@ -19,6 +19,13 @@ The lab is built to mirror real-world enterprise and service provider environmen
 The network is designed with multiple VLANs to separate traffic by function, improve security, and simplify troubleshooting.  
 Routing is used to enable controlled communication between segments while maintaining isolation where required.
 
+### Enterprise Network Topology
+
+![Enterprise Network Topology](diagrams/enterprise-network-topology.png)
+
+This topology illustrates a segmented enterprise network using VLANs and router-on-a-stick inter-VLAN routing. 
+An 802.1Q trunk connects the router and access switch, enabling controlled communication between VLANs.
+
 Planned components include:
 - Access and distribution switching
 - Inter-VLAN routing
