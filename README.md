@@ -47,6 +47,14 @@ Planned components include:
 
 ---
 
+## Zero Trust Alignment
+
+This network design aligns with Zero Trust principles by enforcing segmentation and controlled access
+between network zones. VLANs are used to isolate user, server, and management traffic, while inter-VLAN
+routing is explicitly configured to prevent implicit trust and limit lateral movement.
+
+Access between segments is intentional, monitored, and auditable.
+
 ## Repository Structure
 
 ---
